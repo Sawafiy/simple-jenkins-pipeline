@@ -10,3 +10,5 @@
 ```testing ci```
 
 ```solving ci```
+
+```resolving ci```
