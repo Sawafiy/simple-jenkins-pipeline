@@ -9,6 +9,4 @@
 
 ```testing ci```
 
-```last try```
-
-```resolving everything```
+```solving ci```
