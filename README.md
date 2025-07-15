@@ -6,3 +6,5 @@
 
 ### Run Tests
 ```mvn test```
+
+```changen agent ci```
