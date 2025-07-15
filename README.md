@@ -12,3 +12,5 @@
 ```solving ci```
 
 ```resolving ci```
+
+```checkedout ci```
