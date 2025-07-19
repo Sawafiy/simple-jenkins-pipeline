@@ -13,8 +13,8 @@ pipeline{
         stage('push'){
             steps{
                 script{
-                    withCredentials([usernamePassword(credentialsId: 'docker-hub', passwordVariable: 'password ', usernameVariable: 'username ')]) {
-                    sh 'echo "$password" | docker login -u "$username" --password-stdin'
+                    withCredentials([usernamePassword(credentialsId: 'jenkins-agent', passwordVariable: 'Password ', usernameVariable: 'Username ')]) {
+                    sh 'echo $Password | docker login --username $Username --password-stdin'
                     sh 'docker tag java-app $Username/java-app'
                     sh 'docker push $Username/java-app'
                     }
